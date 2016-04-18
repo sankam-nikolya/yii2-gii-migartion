@@ -1,0 +1,28 @@
+{
+    "name": "sankam-nikolya/yii2-gii-migartion",
+    "description": "Migration Generator for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","gii","migration","generator"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikolya ",
+            "email": "k_m_i@i.ua"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-gii": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "sankam\\gii\\migration\\": ""
+        }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/sankam-nikolya/yii2-gii-migartion.git"
+        }
+    ]
+}
